@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML5 responsive website-Loretta</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+<link href="lightbox/css/lightbox.css" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'/>
+<script src="js/modernizr.min.js"></script>
+<script src="js/respond.min.js"></script>
+<!-- include extern jQuery file but fall back to local file if extern one fails to load !-->
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">window.jQuery || document.write('<script type="text\/javascript" src="js\/1.7.2.jquery.min"><\/script>')</script>
+<script src="lightbox/js/lightbox.js"></script>
+<script src="js/prefixfree.min.js"></script>
+<script src="js/jquery.slides.min.js"></script>
+ <script>
+        $(function() {
+          $('#slides').slidesjs({	
+            height: 235,
+            navigation: false,
+            pagination: false,
+            effect: {
+              fade: {
+                speed: 400
+              }
+            },
+            callback: {
+                start: function(number)
+                {			
+                    $("#slider_content1,#slider_content2,#slider_content3").fadeOut(500);
+                },
+                complete: function(number)
+                {			
+                    $("#slider_content" + number).delay(500).fadeIn(1000);
+                }		
+            },
+            play: {
+                active: false,
+                auto: true,
+                interval: 6000,
+                pauseOnHover: false,
+                effect: "fade"
+            }
+          });
+        });
+        </script>
+
+</head>
+
+<body>
+<header>
+<h1>  HTML5 – CSS Revision </h1>
+<p>Web Diploma Revision</p>
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Porfolio</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li></ul></nav>
+</header>
+>
+
+<section class="container">
+<h2 class="hidden">Top Slider</h2>
+<article id="slider_content1">
+<h3>Slide 1 heading</h3>
+<p>This could be a description of slide 1.</p>
+<a class="button" href="some_page.html">Read more</a>
+</article>
+<article id="slider_content2">
+<h3> Slide 2 heading </h3>
+<p> This could be a description of slide 2.</p>
+<a class="button" href="some_page.html">Read more</a>
+</article>
+<article id="slider_content3">
+<h3> Slide 3 heading </h3>
+<p> This could be a description of slide 3.</p>
+<a class="button" href="some_page.html">Read more</a>
+</article>
+<div id="slides">
+<img src="img/slide1.jpg" alt="Some alt text">
+<img src="img/slide2.jpg" alt="Some alt text">
+<img src="img/slide3.jpg" alt="Some alt text">
+</div>
+</section>
+<section id="spacer">
+<h2 class="hidden">Section heading</h2>
+<p>What are you looking for?</p>
+<div class="search">
+<form action="#">
+<input type="text" name="sitesearch" value="Enter a word..."/>
+<input type="submit" name="start_search" class="button" value="Search"/></form></div></section>
+<section id="boxcontent">
+<h2 class="hidden">Another section  heading</h2>
+<article>
+<img src="img/icon1.png" alt="alt text"/>
+<h3> Sub Section heading </h3>
+<p>
+One day however a small line of blind text by the name of Lorem Ipsum decided to leave for.</p></article>
+<article>
+<img src="img/icon2.png" alt="alt text"/>
+<h3> Sub Section heading </h3>
+<p>
+The large Oxmox advised her not to, because there were thousands of bad Commas, wild Question Marks ...</p></article>
+<article>
+<img src="img/icon3.png" alt="alt text"/>
+<h3> Sub Section heading </h3>
+<p>
+She packed her seven capitals, put her initial into the belt and made herself on the way..</p></article>
+<br class="clear"/></section>
+<section id="four_columns">
+<h2>
+Lorem ipsum</h2>
+<article class="img-item">
+<h3 class="hidden">Dolor sit amet</h3>
+<figure>
+<a href="img/example-slide-1.jpg" rel="lightbox" title="Some Title">
+<span class="thumb-screen"></span>
+<img src="img/example-slide-1sml.jpg" alt="Some alt text"/></a>
+<figcaption>
+<strong>
+Photo by: Some Name</strong>
+When she reached the first hills of the Italic Mountains</figcaption></figure></article>
+<article class="img-item">
+<h3 class="hidden">Sit Amet</h3>
+<figure>
+<a href="img/example-slide-2.jpg" rel="lightbox" title="Some Title">
+<span class="thumb-screen"></span>
+<img src="img/example-slide-2sml.jpg" alt="Some alt text"/></a>
+<figcaption>
+<strong>
+Photo by: Some Name</strong>
+she had a last view back on the skyline of her hometown Bookmarksgrove</figcaption></figure></article>
+<article class="img-item">
+<h3 class="hidden">Dolor Sit</h3>
+<figure>
+<a href="img/example-slide-3.jpg" rel="lightbox" title="Some Title">
+<span class="thumb-screen"></span>
+<img src="img/example-slide-3sml.jpg" alt="Some alt text"/></a>
+<figcaption>
+<strong>
+Photo by: Some Name</strong>
+the headline of Alphabet Village and the subline of her own road.
+</figcaption></figure></article>
+<article class="img-item">
+<h3 class="hidden">Lorem Ipsum</h3>
+<figure>
+<a href="img/example-slide-4.jpg" rel="lightbox" title="Some Title">
+<span class="thumb-screen"></span>
+<img src="img/example-slide-4sml.jpg" alt="Some alt text"/></a>
+<figcaption>
+<strong>
+Photo by: Some Name</strong>
+Wistful ran it a rhetorical question cheek.</figcaption></figure></article>
+<br class="clear"/></section>
+<section id="text_columns">
+<h2 class="hidden">Blindtext</h2>
+<article class="column1">
+<h3>
+Dolor sit amet</h3>
+<p>On the way she met a copy. The copy warned the Little Blind Text, where they would herkäme been rewritten a thousand times and everything left from its origin would be the word "and" and the Little Blind Text should turn around and return to his own, safe country.
+</p>
+<p> But it could not convince Gutzureden everything and so it was not long until he lay in wait for a few insidious Copy Writers, made her drunk with Longe and Parole and dragged her into their agency where they abused again and again for their projects. </p></article>
+<section class="column2">
+<h3 class="hidden">Lorem Impsum</h3>
+<article class="row">
+<h4 class="hidden">Dolor sit</h4>
+<img src="img/icon4.png" width="80" class="rocket" alt="Some alt text"/>
+<p> And if it has not been rewritten, then they are still.</p></article>
+<article class="row">
+<h4 class="hidden">Ipsum</h4>
+<img src="img/icon5.png" width="80" class="clock" alt="Some alt text"/>
+<p> But it could not convince Gutzureden everything and so it did not take long.</p></article></section></section>
+<footer>
+<h2 class="hidden">Our footer</h2>
+<section id="copyright">
+<h3 class="hidden">Copyright notice</h3>
+<div class="wrapper">
+<div class="social">
+<a href="#"><img src="img/icon6.png" alt="google plus" width="25"/></a>
+<a href="#"><img src="img/icon7.png" alt="tumblr" width="25"/></a>
+<a href="#"><img src="img/icon8.png" alt="youtube" width="25"/></a>
+<a href="#"><img src="img/icon9.png" alt="bebo" width="25"/></a>
+<a href="#"><img src="img/icon10.png" alt="xing" width="25"/></a></div>
+&copy; Copyright 2015 by <a href="#">Lingulo</a>. All Rights Reserved.</div></section>
+<section class="wrapper">
+<h3 class="hidden">Footer content</h3>
+<article class="column">
+<h4>Lorem ipsum</h4>
+On the way she met a copy. The copy warned the Little Blind Text, where they would have been rewritten a thousand times and everything left from its origin would be the word "and" and the Little Blind Text should be reversed and again.</article>
+<article class="column midlist">
+<h4>Consectetuer</h4>
+<ul>
+<li><a href="#">The copy warned the Little Blind</a></li>
+<li><a href="#"> where they would have been rewritten</a></li>
+<li><a href="#"> and everything left from its origin </a></li>
+<li><a href="#"> Blind Text should be reversed and again </a></li></ul></article>
+<article class="column rightlist">
+<h4>Dolor sit amet</h4>
+<ul>
+<li><a href="#"><img src="img/example-slide-1sml.jpg" width="80" alt="some alt text"/><span>More text for the footer for everyone.</span></a></li>
+<li><a href="#"><img src="img/example-slide-2sml.jpg" width="80" alt="some alt text"/><span> More text for the footer for everyone.</span></a></li>
+<li><a href="#"><img src="img/example-slide-3sml.jpg" width="80" alt="some alt text"/><span> More text for the footer for everyone </span></a></li></ul></article></section></footer>
+
+
+
+
+
+
+</body>
+</html>
