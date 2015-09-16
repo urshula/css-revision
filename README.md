@@ -32,7 +32,7 @@ Any of Diploma 2015 student list can contribute to project by cloning the projec
 # The Team
 | Role          | Name           | GitHub Handle |
 | ------------- | -------------- | ------------- |
-| Project Lead  | Loretta Faulkner    | [mpdeegantafe](https://github.com/Loretta11)   |
+| Project Lead  | Loretta Faulkner    | [Loretta11](https://github.com/Loretta11)   |
 | Code input  | Michael Deegan   | [mpdeegantafe](https://github.com/mpdeegantafe)   |
 | Code input       | Chris Taylor   | [Christopher08](https://github.com/Christopher08)   |
 | Teacher       | Urshula Beere  | [urshula](https://github.com/urshula)  |
