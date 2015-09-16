@@ -4,6 +4,7 @@
 Files can be modified to include advance css features or font icon packages.
 
 This is an exercise example that we will be using in the 2015 Web Diploma- each student can contribute to the project if they want.
+## Github is the best Version Control
 ![Octocat](Octocat-2.png)
 
 ## Motivation
