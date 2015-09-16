@@ -27,7 +27,7 @@ no designated API references which is not to say students will not be using them
 
 ## Contributors
 
-Any of Diploma 2015 student list can contribute to project by cloning the project to their local computer at https://github.com/Loretta11/css-revision.git
+Any of Diploma 2015 student list can contribute to project by cloning the project.
 # The Team
 | Role          | Name           | GitHub Handle |
 | ------------- | -------------- | ------------- |
