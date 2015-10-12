@@ -1,6 +1,6 @@
-# css-revision- urshulas fork version 1.0
+# css-revision- urshulas fork version 1.0.1
 ## Tafe Diploma Project for CSS Revision
-
+## Update 12/10/2015
 Files can be modified to include advance css features or font icon packages.
 
 This is an exercise example that we will be using in the 2015 Web Diploma- each student can contribute to the project if they want.
